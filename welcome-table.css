@@ -1,0 +1,180 @@
+/* FORLORN FANTASY WELCOME TABLE */
+
+.welcome-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-image: linear-gradient(to bottom, rgb(18 13 22 / 85%), #000000), url(https://2img.net/i.imgur.com/MR237TM.png);
+    background-size: cover;
+    border: 1px solid rgb(132 94 185 / 45%);
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 0 40px rgba(120,80,170,.25), inset 0 0 40px rgba(0,0,0,.8);
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 80px;
+}
+
+/* magical top line */
+.welcome-table:before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:10%;
+    width:80%;
+    height:2px;
+    background:linear-gradient(to right, transparent, #c89468, transparent);
+}
+
+/* TITLE */
+.welcome-title {
+    font-family:'Rosie Brown', serif;
+    text-align:center;
+    font-size:45px;
+    letter-spacing:10px;
+    text-transform:uppercase;
+    color:#8578c94f;
+    text-shadow:
+        0 0 15px rgba(200,160,100,.4);
+    padding:20px;
+  border-radius: 10px;
+}
+
+.welcome-title:after {
+    content:"IT CAME TO ME IN A DREAM..";
+    display:block;
+    margin-top:15px;
+    font-family:'Cinzel', serif;
+    font-size:11px;
+    letter-spacing:5px;
+    color:#9d91b6;
+}
+
+/* CONTENT */
+.welcome-content {
+    display:grid;
+    grid-template-columns:
+    repeat(3,1fr);
+    gap:25px;
+}
+
+
+/* CARDS */
+.welcome-column {
+    position:relative;
+    min-height:230px;
+    padding:35px 25px;
+    text-align:center;
+    background:
+    linear-gradient(
+        180deg,
+        rgba(255,255,255,.05),
+        rgba(0,0,0,.5)
+    );
+    border:1px solid rgba(200,170,100,.25);
+    border-radius:15px;
+    transition:.4s ease;
+    overflow:hidden;
+
+}
+
+.welcome-column-season {
+    position:relative;
+    min-height:230px;
+    padding:35px 25px;
+    text-align:center;
+    background-image: linear-gradient(to left, rgb(20 20 20 / 65%), rgb(5 4 6)), url(https://2img.net/i.imgur.com/jTcz2IT.jpeg);
+    border:1px solid rgba(200,170,100,.25);
+    border-radius:15px;
+    transition:.4s ease;
+    overflow:hidden;
+
+}
+
+
+/* glowing corner */
+.welcome-column:before, .welcome-column-season:before {
+    content:"";
+    position:absolute;
+    width:80px;
+    height:80px;
+    top:-40px;
+    left:-40px;
+    background:
+    radial-gradient(
+        circle,
+        rgba(190,150,90,.35),
+        transparent 70%
+    );
+
+}
+
+
+/* HOVER */
+.welcome-column:hover, .welcome-column-season:hover {
+    transform:
+    translateY(-10px);
+    border-color:#c8a968;
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.6),
+    0 0 25px rgba(160,120,220,.3);
+}
+
+
+/* HEADINGS */
+.welcome-column h3, .welcome-column-season h3  {
+    font-family:'Cinzel', serif;
+    color:#c3bfb7 !important;
+    font-size:18px;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+
+}
+
+
+/* divider */
+.welcome-column h3:after, .welcome-column-season h3:after {
+    content:"";
+    display:block;
+    width:50px;
+    height:1px;
+    margin:15px auto;
+    background:#c8a968;
+
+}
+
+/* TEXT */
+.welcome-column p {
+    font-family:'Calibri', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    color:#b1b1b1;
+    line-height:1.8;
+    font-size:13px;
+    background-color: #1a171e96;
+    border-radius: 10px;
+  padding:3px;
+
+}
+
+.welcome-column-season p {
+    font-family:'Calibri', sans-serif;
+    color:#b1b1b1;
+    line-height:1.8;
+    font-size:13px;
+    background-color: #00000061;
+}
+
+
+/* LINKS */
+.welcome-column a, .welcome-column-season a {
+    color:#aca6bd;
+    text-decoration:none;
+}
+
+
+.welcome-column a:hover, .welcome-column-season a:hover {
+    color:white;
+
+}
