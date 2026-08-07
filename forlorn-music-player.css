@@ -155,12 +155,12 @@ content: "";
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
+    margin-top: -12px;
 }
 
 .forlorn-music-divider img {
     display: block;
-    width: 120px;
+    width: 150px;
     height: auto;
-    opacity: 0.65;
+    filter: grayscale(1);
 }
