@@ -1,0 +1,166 @@
+/* =========================
+   FORLORN MUSIC PLAYER
+   ========================= */
+
+#forlorn-music {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 999;
+    font-family: 'Cinzel', serif;
+}
+
+#forlorn-music-toggle {
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 50%;
+    background: rgba(20,15,25,0.9);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#forlorn-music-toggle:hover {
+    transform: scale(1.08);
+}
+
+#forlorn-music-player:before {
+content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #c89468, transparent);
+}
+
+#forlorn-music-player {
+    position: absolute;
+    right: 0;
+    bottom: 58px;
+    width: 220px;
+    padding: 15px;
+    background: linear-gradient(to top, rgb(36 32 45), rgb(0 0 0));
+    border: 1px solid rgb(207 172 255 / 25%);
+  border-radius: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: 0.25s ease;
+}
+
+#forlorn-music.open #forlorn-music-player {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.forlorn-music-title {
+    font-size: 11px;
+    color: #ada599;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.forlorn-music-controls {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    gap: 6px !important;
+   padding: 0 5px;
+    box-sizing: border-box;
+}
+
+#forlorn-volume {
+    display: block !important;
+    width: 55px !important;
+    height: 3px !important;
+    margin: 0 8px 0 5px !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    cursor: pointer !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    background: rgba(255,248,225,.25);
+    border-radius: 10px;
+}
+
+#forlorn-volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 7px;
+    background: #f5e8c8;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.forlorn-volume-icon {
+    font-size: 11px;
+    color: #b5b5b5;
+}
+
+#forlorn-play {
+    border: 0;
+    background: transparent;
+    color: #cfb19b;
+    cursor: pointer;
+}
+
+#forlorn-play .th-play,
+#forlorn-play .th-pause {
+    font-size: 25px !important;
+    line-height: 1;
+}
+
+#forlorn-progress {
+    width: 100%;
+    height: 3px;
+    margin: 6px 0;
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+#forlorn-progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 0;
+    background: #fff;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#forlorn-prev .th-chevron-left,
+#forlorn-next .th-chevron-right {
+    font-size: 12px !important;
+}
+
+.forlorn-music-track {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color:#cdbdb6;
+}
+
+.forlorn-music-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.forlorn-music-divider img {
+    display: block;
+    width: 120px;
+    height: auto;
+    opacity: 0.65;
+}
