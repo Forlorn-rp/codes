@@ -1,0 +1,102 @@
+.lastpost-avatar {
+    float: none;
+    flex-shrink:0;   
+}
+
+
+.lastpost-avatar img {
+    width:70px;
+    height:70px;
+    object-fit:cover;
+    border-radius:50%;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.lastpost-avatar::before,
+.lastpost-avatar::after,
+.lastpostavatar::before,
+.lastpostavatar::after {
+    display: none !important;
+    content: none !important;
+}
+
+
+.lastpost-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    min-width: max-content;
+    font-family: 'Calibri', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.lastpost-title {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ebebeb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.lastpost-meta {
+    display: block;
+    width: 100%;
+    font-size: 11px;
+    line-height: 15px;
+    color: #8b8b8b;
+    text-transform: uppercase;
+    margin-top: -2px;
+}
+
+/* DATE */
+.lastpost-meta > br {
+    display: block !important;
+}
+
+.lastpost-meta > strong {
+    display: inline-block !important;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+/* USERNAME */
+.lastpost-meta > strong > a {
+    display: inline !important;
+    white-space: nowrap !important;
+}
+
+.lastpost-meta > strong > a > span {
+    display: inline !important;
+    white-space: nowrap !important;
+}
+
+.lastpost-meta > strong > a > span > strong {
+    display: inline !important;
+    font-weight: normal;
+    white-space: nowrap !important;
+}
+
+/* ARROW */
+.lastpost-meta > .last-post-icon {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    width: auto !important;
+    margin-left: 3px !important;
+    vertical-align: middle !important;
+}
+
+.lastpost-meta > .last-post-icon img {
+    display: inline-block !important;
+    width: auto !important;
+    height: auto !important;
+    vertical-align: middle !important;
+}
