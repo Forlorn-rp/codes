@@ -177,12 +177,10 @@
 
 .stardust-member-info {
     min-height: 25px;
-    
-    font-family: "Cormorant Garamond", Georgia, serif;
+    font-family: 'Calibri', serif;
     font-size: 13px;
     font-style: italic;
-    
-    color: #756b65;
+    color: #a19e9d;
 }
 
 
