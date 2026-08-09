@@ -106,11 +106,10 @@
     
     overflow: hidden;
     
-    border: 5px solid #3f3f3f;
+    border: 5px solid #292631;
     border-radius: 50%;
-    
-    background: #d8d4cd;
-    
+    background: #000000;
+    outline: 1px solid #636363;
     box-sizing: border-box;
 }
 
