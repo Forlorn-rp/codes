@@ -2,6 +2,48 @@
    STARDUST MEMBERLIST
    ========================================================= */
 
+.stardust-memberlist-title:before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #c89468, transparent);
+}
+
+.stardust-memberlist-title {
+  border-bottom: 8px solid #101010;
+    color: #a8a2b5;
+    font-family: 'Cinzel';
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 18px 5px;
+    margin: 0 auto 15px;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(to left,rgb(0 0 0 / 92%),rgb(14 12 16 / 95%)),url(https://2img.net/i.imgur.com/mY6bVIi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #020202;
+    outline: 2px solid #1a1a1a;
+}
+
+.stardust-memberlist-title::after {
+  content: "";
+    display: block;
+    width: 150px;
+    height: 20px;
+    margin: 1px auto 0;
+    background: url("https://2img.net/i.imgur.com/odmuz3j.png") center / contain no-repeat;
+    filter: contrast(0.2);
+}
+
 .stardust-memberlist {
     width: 100%;
     max-width: 1050px;
