@@ -594,6 +594,21 @@
     min-width: 0;
 }
 
+
+/* ============================================================
+   FIELD LABEL
+   ============================================================ */
+
+/*
+   IMPORTANT:
+   This hides the Forumotion-generated "*" and ":" inside
+   #stard-titulo-campos without hiding the actual label.
+*/
+
+#stard-titulo-campos {
+    font-size: 0;
+}
+
 .occult-field-label {
     margin-bottom: 5px;
 
@@ -605,6 +620,9 @@
 
     text-transform: uppercase;
 }
+
+
+/* field value */
 
 .occult-field-value {
     color: #cfc7b8;
@@ -1224,8 +1242,8 @@
         grid-template-columns:
             repeat(2, minmax(0,1fr));
     }
-}
 
+}
 
 @media (max-width: 700px) {
 
@@ -1275,8 +1293,8 @@
     .occult-last-visit {
         text-align: left;
     }
-}
 
+}
 
 @media (max-width: 480px) {
 
@@ -1305,15 +1323,8 @@
 
         font-size: 14px;
     }
+
 }
-
-
-/* ============================================================
-   ============================================================
-   OCCULT TAROT PROFILE — ADDITIONAL ENHANCEMENTS
-   These rules come AFTER the original CSS intentionally.
-   ============================================================
-   ============================================================ */
 
 
 /* ============================================================
@@ -1883,8 +1894,8 @@
     .occult-identity-panel {
         padding: 18px;
     }
-}
 
+}
 
 @media (max-width: 700px) {
 
@@ -1918,8 +1929,8 @@
     .occult-status-panel {
         padding: 14px 16px;
     }
-}
 
+}
 
 @media (max-width: 480px) {
 
@@ -1966,6 +1977,7 @@
     .occult-status-panel {
         padding: 13px;
     }
+
 }
 
 
