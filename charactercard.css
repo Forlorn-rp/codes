@@ -599,12 +599,12 @@
 }
 
 .occult-field-label {
-    margin-bottom: 5px;
     color: #857994;
     font-family: 'Cinzel';
     font-size: 15px;
    font-weight: 600;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 
