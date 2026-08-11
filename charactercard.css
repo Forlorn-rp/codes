@@ -1,0 +1,187 @@
+/* =========================================================
+   FORLORN — TAROT RPG PROFILE CARD
+   ========================================================= */
+
+.forlorn-rpg-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 22px;
+    padding: 22px;
+    margin: 15px 0;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(69, 54, 113, 0.16),
+            rgba(0, 0, 0, 0.94)
+        );
+    border: 1px solid rgba(185, 180, 176, 0.28);
+    box-shadow:
+        inset 0 0 35px rgba(69, 54, 113, 0.12),
+        0 0 25px rgba(0, 0, 0, 0.45);
+}
+
+/* subtle inner frame */
+
+.forlorn-rpg-card::before {
+    content: "";
+    position: absolute;
+    inset: 7px;
+    border: 1px solid rgba(185, 180, 176, 0.10);
+    pointer-events: none;
+}
+
+/* ---------------------------------------------------------
+   CHARACTER IMAGE
+   --------------------------------------------------------- */
+
+.forlorn-rpg-image {
+    position: relative;
+    min-height: 390px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.forlorn-rpg-image-frame {
+    position: relative;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(185, 180, 176, 0.35);
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(61, 40, 111, 0.22),
+            rgba(0, 0, 0, 0.75)
+        );
+}
+
+/* decorative corners */
+
+.forlorn-rpg-image-frame::before,
+.forlorn-rpg-image-frame::after {
+    content: "✦";
+    position: absolute;
+    z-index: 2;
+    color: #b9b4b0;
+    font-size: 16px;
+}
+
+.forlorn-rpg-image-frame::before {
+    top: 7px;
+    left: 9px;
+}
+
+.forlorn-rpg-image-frame::after {
+    bottom: 7px;
+    right: 9px;
+}
+
+.forlorn-rpg-image-frame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 370px;
+    object-fit: cover;
+    border: 1px solid rgba(185, 180, 176, 0.18);
+}
+
+/* ---------------------------------------------------------
+   FIELD AREA
+   --------------------------------------------------------- */
+
+.forlorn-rpg-fields {
+    position: relative;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.30);
+    border: 1px solid rgba(185, 180, 176, 0.13);
+}
+
+/* ---------------------------------------------------------
+   FIELD GRID
+   --------------------------------------------------------- */
+
+.forlorn-rpg-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+/* individual tarot-style information card */
+
+.forlorn-rpg-field {
+    min-height: 70px;
+    padding: 12px 14px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(69, 54, 113, 0.12),
+            rgba(0, 0, 0, 0.42)
+        );
+    border: 1px solid rgba(185, 180, 176, 0.18);
+    box-sizing: border-box;
+}
+
+/* label */
+
+.forlorn-rpg-label {
+    margin-bottom: 7px;
+    color: #b9b4b0;
+    font-family: "Cinzel", serif;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* little star beside each field */
+
+.forlorn-rpg-label .th-stars-o {
+    margin-right: 6px;
+    font-size: 9px;
+    color: #8f82bd;
+}
+
+/* value */
+
+.forlorn-rpg-value {
+    color: #77727a;
+    font-family: "Cinzel", serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* ---------------------------------------------------------
+   DIVIDERS
+   --------------------------------------------------------- */
+
+.forlorn-rpg-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 5px 0 18px;
+    color: #8f82bd;
+}
+
+.forlorn-rpg-divider::before,
+.forlorn-rpg-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(185, 180, 176, 0.35),
+        transparent
+    );
+}
+
+.forlorn-rpg-divider span {
+    font-size: 14px;
+}
+
+/* bottom divider */
+
+.forlorn-rpg-fields .forlorn-rpg-divider:nth-of-type(2) {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
