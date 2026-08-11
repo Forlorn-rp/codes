@@ -1529,19 +1529,6 @@
         transform .25s ease;
 }
 
-.occult-field:hover {
-    border-color: rgba(168,145,93,.38);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(37,31,54,.62),
-            rgba(7,6,11,.62)
-        );
-
-    transform: translateY(-1px);
-}
-
 
 /* ============================================================
    FIELD LABELS
