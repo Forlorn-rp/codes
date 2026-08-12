@@ -664,8 +664,9 @@
 .occult-bottom-divider img {
     display: block;
     width: 100%;
-    max-width: 500px;
+    max-width: 250px;
     height: auto;
+    filter: brightness(0.5) saturate(0.5);
 }
 
 
