@@ -1842,6 +1842,7 @@
     transition:
         color .2s ease,
         text-shadow .2s ease;
+   font-size:20px;
 }
 
 
