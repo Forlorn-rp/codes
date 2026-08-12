@@ -568,12 +568,10 @@
 
 .occult-field-star {
     flex: 0 0 auto;
-
     color: var(--occult-gold);
-
     font-size: 12px;
-
     margin-top: 2px;
+    display: none;
 }
 
 
