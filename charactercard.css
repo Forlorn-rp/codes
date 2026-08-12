@@ -187,19 +187,10 @@
 
 .occult-portrait-frame {
     position: relative;
-
-    height: 420px;
-
+    height: 490px;
     overflow: hidden;
-
-    border: 1px solid rgba(168,145,93,.5);
-
-    background:
-        radial-gradient(
-            circle,
-            #29243a 0%,
-            #0b0a10 65%
-        );
+    border: 1px solid rgb(168 145 93 / 27%);
+    background:radial-gradient(circle, #29243a 0%, #050208 65%);
 }
 
 
@@ -284,15 +275,10 @@
 
 .occult-portrait-corner {
     position: absolute;
-
     z-index: 4;
-
     color: var(--occult-gold);
-
-    font-size: 32px;
-
+    font-size: 15px;
     line-height: 1;
-
     opacity: .8;
 }
 
