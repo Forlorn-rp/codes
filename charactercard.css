@@ -378,12 +378,23 @@
 /* identity header */
 
 .occult-identity-header {
+    position: relative;
+    z-index: 1;
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     min-height: 85px;
+}
+
+.occult-identity-header::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -22px;
+    right: -22px;
+    bottom: -12px;
+    background: #07080b;
 }
 
 
