@@ -655,42 +655,17 @@
 
 .occult-bottom-divider {
     display: flex;
-
     align-items: center;
     justify-content: center;
-
-    gap: 8px;
-
     margin-top: 18px;
-
-    color: var(--occult-gold);
-
-    font-size: 12px;
+    width: 100%;
 }
 
-.occult-bottom-divider::before,
-.occult-bottom-divider::after {
-    content: "";
-
-    height: 1px;
-
-    width: 35%;
-
-    background:
-        linear-gradient(
-            to right,
-            transparent,
-            rgba(168,145,93,.45)
-        );
-}
-
-.occult-bottom-divider::after {
-    background:
-        linear-gradient(
-            to left,
-            transparent,
-            rgba(168,145,93,.45)
-        );
+.occult-bottom-divider img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 
