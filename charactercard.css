@@ -140,14 +140,11 @@
 
 .occult-main-grid {
     display: grid;
-
     grid-template-columns:
-        270px
-        minmax(400px, 1fr)
-        150px;
-
-    gap: 12px;
-
+        350px
+        minmax(0px, 1fr)
+        120px;
+    gap: 15px;
     align-items: stretch;
 }
 
