@@ -684,22 +684,11 @@
 
 .occult-status-panel {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     margin-top: 12px;
-
     padding: 15px 20px;
-
-    background:
-        linear-gradient(
-            90deg,
-            #0e0c14,
-            #12101a,
-            #0b0a0f
-        );
-
+    background: radial-gradient(ellipse at 15% 50%, rgba(53, 41, 73, .16), transparent 45%), linear-gradient(90deg, #040406, #12101a, #000000);
     border: 1px solid rgba(168,145,93,.28);
 }
 
