@@ -465,13 +465,11 @@
 
 .occult-gold-divider {
     display: flex;
-
+    position: relative;
+    z-index: 2;
     align-items: center;
-
     gap: 10px;
-
-    margin: 12px 0 18px;
-
+    margin: 0px 0 18px;
     color: var(--occult-gold);
 }
 
