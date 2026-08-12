@@ -233,18 +233,12 @@
 
 .occult-sunburst {
     position: absolute;
-
-    top: 5px;
+    top: -12px;
     left: 50%;
-
     z-index: 2;
-
     transform: translateX(-50%);
-
     color: var(--occult-gold);
-
     font-size: 50px;
-
     text-shadow:
         0 0 10px rgba(168,145,93,.35);
 }
