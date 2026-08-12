@@ -897,10 +897,9 @@
 
 .occult-rail-section {
     position: relative;
-
     width: 100%;
-
     text-align: center;
+    top: 100px;
 }
 
 .occult-rail-title {
@@ -932,14 +931,11 @@
 
 .occult-rail-divider {
     position: relative;
-
     width: 75%;
-
     margin: 35px 0;
-
     color: var(--occult-gold);
-
     text-align: center;
+    top: 100px;
 }
 
 .occult-rail-divider::before,
