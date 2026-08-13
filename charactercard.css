@@ -790,12 +790,12 @@
 
 .occult-rail-title {
     color: #c7bcac;
-
     font-size: 13px;
-
     letter-spacing: 1px;
-
     text-transform: uppercase;
+    background-color: #0d0c14ab;
+    border-radius: 100%;
+    padding: 5px;
 }
 
 .occult-rail-icon {
@@ -1615,7 +1615,7 @@
     transition:
         color .2s ease,
         text-shadow .2s ease;
-   font-size:20px;
+   font-size:15px;
 }
 
 
