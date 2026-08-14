@@ -5,12 +5,11 @@
 .stardust-memberlist-title {
   border-bottom: 8px solid #101010;
     color: #a8a2b5;
-    font-family: 'Cinzel';
+    font-family: 'Libre Baskerville';
     font-size: 30px;
-    letter-spacing: 2px;
+    font-style: italic;
     padding: 18px 5px;
     margin: 0 auto 15px;
-    text-transform: uppercase;
     text-align: center;
     background-image: linear-gradient(to left,rgb(0 0 0 / 92%),rgb(14 12 16 / 95%)),url(https://2img.net/i.imgur.com/mY6bVIi.jpeg);
     background-repeat: no-repeat;
