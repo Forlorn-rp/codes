@@ -84,17 +84,11 @@
 .occult-rank-plaque {
     position: relative;
     z-index: 3;
-
     width: 190px;
-
     margin: -20px auto 35px;
-
     padding: 14px 20px;
-
     box-sizing: border-box;
-
     text-align: center;
-
     background:
         linear-gradient(
             135deg,
@@ -102,18 +96,15 @@
             #17131f,
             #0d0c11
         );
-
     border: 1px solid rgba(168,145,93,.65);
-
     box-shadow:
         0 0 0 5px #09080d,
         0 0 0 6px rgba(168,145,93,.18);
-
     color: #d7ccb2;
-
     font-size: 18px;
     letter-spacing: 3px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 
