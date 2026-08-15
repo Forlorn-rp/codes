@@ -59,20 +59,18 @@
     bottom: calc(100% + 20px);
     left: 50%;
     transform: translateX(-50%) translateY(5px);
-
-    background: #29262d;
+    background: #5c5465;
     color: #fff;
     padding: 7px 11px;
     border-radius: 5px;
-
+    font-family: 'Calibri';
     font-size: 11px;
+    text-transform: uppercase;
     line-height: 1.2;
     white-space: nowrap;
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
     transition: opacity .2s ease, transform .2s ease;
     z-index: 9999;
 }
