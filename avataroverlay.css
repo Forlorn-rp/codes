@@ -1,0 +1,42 @@
+/* Personal contact icons inside avatar overlay */
+.stardust-tprofile-avatar .personal-contact {
+    width: auto !important;
+    height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    overflow: visible !important;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Keep the actual contact links/icons small */
+.stardust-tprofile-avatar .personal-contact a {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px !important;
+    height: 24px !important;
+
+    font-size: 16px !important;
+}
+
+/* Prevent images/icons from becoming huge */
+.stardust-tprofile-avatar .personal-contact img {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+}
+
+/* Honeybee/font icons */
+.stardust-tprofile-avatar .personal-contact i {
+    font-size: 18px !important;
+    line-height: 1 !important;
+}
