@@ -58,7 +58,7 @@
 .stardust-tprofile-avatar .personal-contact a::after {
     content: attr(data-tooltip);
     position: absolute;
-    bottom: calc(100% + 50px);
+    bottom: calc(100% + 100px);
     left: 50%;
     transform: translateX(-50%) translateY(5px);
     background: #5c5465;
