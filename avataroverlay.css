@@ -34,6 +34,7 @@
     max-width: 32px !important;
     max-height: 32px !important;
     border: none !important;
+    outline: none !important;
 }
 
 /* Honeybee/font icons */
