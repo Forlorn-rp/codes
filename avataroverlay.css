@@ -70,6 +70,7 @@
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
+    overflow-x: hidden !important;
     pointer-events: none;
     transition: opacity .2s ease, transform .2s ease;
     z-index: 9999;
