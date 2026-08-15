@@ -48,3 +48,37 @@
     font-size: 18px !important;
     line-height: 1 !important;
 }
+
+.stardust-tprofile-avatar .personal-contact a {
+    position: relative;
+}
+
+.stardust-tprofile-avatar .personal-contact a::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(5px);
+
+    background: #080708;
+    color: #fff;
+    padding: 7px 11px;
+    border-radius: 5px;
+
+    font-size: 11px;
+    line-height: 1.2;
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: opacity .2s ease, transform .2s ease;
+    z-index: 9999;
+}
+
+.stardust-tprofile-avatar .personal-contact a:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
