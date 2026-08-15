@@ -35,10 +35,10 @@
 
 /* Prevent images/icons from becoming huge */
 .stardust-tprofile-avatar .personal-contact img {
-    width: 32px !important;
-    height: 32px !important;
-    max-width: 32px !important;
-    max-height: 32px !important;
+    width: 74px !important;
+    height: 66px !important;
+    max-width: 74px !important;
+    max-height: 66px !important;
     border: none !important;
     outline: none !important;
 }
