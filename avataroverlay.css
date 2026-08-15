@@ -1,18 +1,24 @@
 /* Personal contact icons inside avatar overlay */
 .stardust-tprofile-avatar .personal-contact {
-    width: auto !important;
-    height: auto !important;
-    max-width: none !important;
-    max-height: none !important;
-    overflow: visible !important;
-
     display: flex !important;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-
     margin: 0 !important;
     padding: 0 !important;
+    background: #080708cc;
+    border-radius: 5px;
+    height: 200px;
+    width: 100%;
+}
+
+.stardust-tprofile-avatar .personal-contact > * {
+    flex: 0 0 74px;
+    width: 74px !important;
+    height: 66px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
 }
 
 /* Keep the actual contact links/icons small */
