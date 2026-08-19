@@ -1720,71 +1720,53 @@
    ============================================================ */
 
 .occult-character-divider {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    width: 100% !important;
-    box-sizing: border-box;
-
-    margin: 12px 0 !important;
-    padding: 0 !important;
-
-    gap: 14px !important;
-
+    width: 100%;
     text-align: center;
 }
 
-/* Each contact item */
+.occult-character-divider .occult-left-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+    padding-top: 10px;
+
+    gap: 16px;
+
+    border-top: 1px solid rgba(168, 145, 93, 0.18);
+}
+
 .occult-character-divider .occult-contact-item {
-    display: block !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    width: auto !important;
-    height: auto !important;
+    margin: 0;
+    padding: 0;
 
-    flex: 0 0 auto !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    font-size: 0 !important;
-    line-height: 0 !important;
+    font-size: 0;
 }
 
-/* The actual contact link */
-.occult-character-divider .occult-contact-item a {
-    display: flex !important;
-
-    align-items: center !important;
-    justify-content: center !important;
-
-    width: auto !important;
-    height: auto !important;
+.occult-character-divider .occult-left-contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     margin: 0 !important;
     padding: 0 !important;
 
-    background: transparent !important;
+    background: none !important;
     border: 0 !important;
-
-    line-height: 1 !important;
 }
 
-/* Contact icon itself */
-.occult-character-divider .occult-contact-item img,
-.occult-character-divider .occult-contact-item i {
-    display: block !important;
-
-    position: static !important;
-
-    width: auto;
-    height: auto;
-
+.occult-character-divider .occult-left-contact img {
+    display: block;
     margin: 0 !important;
-    padding: 0 !important;
 }
 
-/* Hide original contact container */
 .occult-contact-panel {
     display: none !important;
 }
