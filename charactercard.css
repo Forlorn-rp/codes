@@ -227,6 +227,7 @@
     letter-spacing: 8px;
 
     opacity: .8;
+    display: none;
 }
 
 
@@ -1294,11 +1295,6 @@
     text-shadow:
         0 0 8px rgba(168,145,93,.25),
         0 0 22px rgba(168,145,93,.12);
-}
-
-.occult-zodiac {
-    text-shadow:
-        0 0 8px rgba(168,145,93,.2);
 }
 
 
