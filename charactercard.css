@@ -1714,4 +1714,64 @@
 /* ============================================================
    END OF OCCULT TAROT PROFILE
    ============================================================ */
+/* ============================================================
+   PROFILE CONTACT ICONS
+   PM + WEBSITE UNDER PLAYED BY / POSTS
+   ============================================================ */
 
+.occult-left-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(168,145,93,.18);
+}
+
+.occult-left-contact .occult-contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.occult-left-contact .occult-contact-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    color: #a8915d;
+    text-decoration: none;
+
+    font-size: 22px;
+
+    background: rgba(10,8,14,.65);
+    border: 1px solid rgba(168,145,93,.25);
+
+    transition:
+        color .2s ease,
+        border-color .2s ease,
+        background .2s ease,
+        transform .2s ease;
+}
+
+.occult-left-contact .occult-contact-item a:hover {
+    color: #e0c989;
+    border-color: rgba(199,178,119,.65);
+    background: rgba(36,28,48,.75);
+
+    transform: translateY(-2px);
+
+    text-shadow:
+        0 0 8px rgba(224,201,137,.2);
+}
+
+
+/* Keep the contact panel itself out of the center column */
+
+.occult-contact-panel {
+    display: none;
+}
