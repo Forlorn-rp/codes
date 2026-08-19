@@ -1720,57 +1720,71 @@
    ============================================================ */
 
 .occult-character-divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 
-    width: 100%;
-    margin: 10px 0;
+    width: 100% !important;
+    box-sizing: border-box;
 
-    gap: 12px;
+    margin: 12px 0 !important;
+    padding: 0 !important;
+
+    gap: 14px !important;
+
+    text-align: center;
 }
 
+/* Each contact item */
 .occult-character-divider .occult-contact-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block !important;
 
-    flex: 0 0 auto;
+    width: auto !important;
+    height: auto !important;
 
-    width: 30px;
-    height: 30px;
-
-    margin: 0;
-    padding: 0;
-
-    font-size: 0;
-}
-
-.occult-character-divider .occult-contact-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 30px;
-    height: 30px;
+    flex: 0 0 auto !important;
 
     margin: 0 !important;
     padding: 0 !important;
 
-    background: none !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+
+/* The actual contact link */
+.occult-character-divider .occult-contact-item a {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: auto !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: transparent !important;
     border: 0 !important;
 
-    line-height: 1;
+    line-height: 1 !important;
 }
 
+/* Contact icon itself */
 .occult-character-divider .occult-contact-item img,
 .occult-character-divider .occult-contact-item i {
-    display: block;
+    display: block !important;
 
-    margin: 0;
-    padding: 0;
+    position: static !important;
+
+    width: auto;
+    height: auto;
+
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
+/* Hide original contact container */
 .occult-contact-panel {
     display: none !important;
 }
