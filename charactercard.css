@@ -1714,3 +1714,33 @@
 /* ============================================================
    END OF OCCULT TAROT PROFILE
    ============================================================ */
+
+/* ============================================================
+   PROFILE CONTACT ICONS
+   ============================================================ */
+
+.occult-character-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.occult-character-divider .occult-contact-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.occult-character-divider .occult-contact-item a {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+.occult-contact-panel {
+    display: none;
+}
