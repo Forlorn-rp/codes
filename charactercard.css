@@ -1731,8 +1731,25 @@
 }
 
 .occult-left-contact .occult-contact-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
     margin: 0 8px !important;
     padding: 0 !important;
+
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+
+.occult-left-contact .occult-contact-item a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.occult-left-contact .occult-contact-item img {
+    display: block !important;
 }
 
 .occult-contact-panel {
