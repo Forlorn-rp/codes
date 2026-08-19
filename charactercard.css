@@ -1719,12 +1719,25 @@
    PM + WEBSITE UNDER PLAYED BY / POSTS
    ============================================================ */
 
-.occult-left-contact {
+.occult-left-info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.occult-left-info-item {
+    width: 100%;
+}
+
+.occult-left-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 18px;
-    margin-top: 12px;
+    gap: 16px;
+    margin-top: 10px;
     padding-top: 10px;
     border-top: 1px solid rgba(168,145,93,.18);
 }
@@ -1735,43 +1748,27 @@
     justify-content: center;
 }
 
+/* Do NOT turn Forumotion's contact links into boxes */
 .occult-left-contact .occult-contact-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 32px;
-    height: 32px;
-
-    color: #a8915d;
-    text-decoration: none;
-
-    font-size: 22px;
-
-    background: rgba(10,8,14,.65);
-    border: 1px solid rgba(168,145,93,.25);
-
-    transition:
-        color .2s ease,
-        border-color .2s ease,
-        background .2s ease,
-        transform .2s ease;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    font-size: inherit;
 }
 
-.occult-left-contact .occult-contact-item a:hover {
-    color: #e0c989;
-    border-color: rgba(199,178,119,.65);
-    background: rgba(36,28,48,.75);
-
-    transform: translateY(-2px);
-
-    text-shadow:
-        0 0 8px rgba(224,201,137,.2);
+/* Keep the original contact icons */
+.occult-left-contact .occult-contact-item img,
+.occult-left-contact .occult-contact-item i {
+    display: inline-block;
+    vertical-align: middle;
 }
 
-
-/* Keep the contact panel itself out of the center column */
-
+/* Hide the original location */
 .occult-contact-panel {
     display: none;
 }
