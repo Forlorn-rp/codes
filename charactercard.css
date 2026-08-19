@@ -1733,6 +1733,8 @@
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
+
+    font-size: 0; /* hides the generated "-" */
 }
 
 .occult-character-divider .occult-contact-item a {
@@ -1752,6 +1754,7 @@
     line-height: 1;
 }
 
+.occult-character-divider .occult-contact-item img,
 .occult-character-divider .occult-contact-item i {
     display: block;
     margin: 0;
