@@ -1720,46 +1720,21 @@
    ============================================================ */
 
 .occult-character-divider {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 12px 0;
+    text-align: center !important;
 }
 
 .occult-left-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    margin: 10px 0 0;
-    padding-top: 10px;
-    border-top: 1px solid rgba(168, 145, 93, 0.18);
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0 !important;
 }
 
-.occult-contact-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-}
-
-.occult-contact-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 !important;
+.occult-left-contact .occult-contact-item {
+    margin: 0 8px !important;
     padding: 0 !important;
 }
 
-.occult-contact-item img {
-    display: block;
-    margin: 0 !important;
-}
-
-/* Hide original contact location */
 .occult-contact-panel {
     display: none !important;
 }
