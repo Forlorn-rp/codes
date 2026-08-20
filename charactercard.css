@@ -1771,3 +1771,38 @@
 
     object-fit: cover;
 }
+
+/* ============================================================
+   INKPRINT SYMBOL
+   ============================================================ */
+
+.occult-inkprint-symbol {
+    flex: 0 0 auto;
+
+    color: var(--occult-gold);
+
+    font-size: 24px;
+
+    opacity: .8;
+
+    text-shadow:
+        0 0 8px rgba(168,145,93,.18);
+}
+
+/* ============================================================
+   INKPRINT — MOBILE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+    .occult-inkprint {
+        flex-wrap: wrap;
+    }
+
+    .occult-inkprint-image {
+        width: 180px;
+        height: 140px;
+        flex: 0 0 180px;
+    }
+
+}
