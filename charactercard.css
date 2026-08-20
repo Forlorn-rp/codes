@@ -1731,18 +1731,43 @@
 }
 
 /* ============================================================
+   INKPRINT CONTAINER
+   ============================================================ */
+
+.occult-inkprint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: 100%;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+/* ============================================================
    INKPRINT IMAGES
    ============================================================ */
+
 .occult-inkprint-image {
     width: 180px;
     height: 140px;
+
+    flex: 0 0 180px;
+
     overflow: hidden;
-    flex-shrink: 0;
+
+    box-sizing: border-box;
+
+    border: 1px solid rgba(168,145,93,.22);
+    background: #09080d;
 }
 
 .occult-inkprint-image img {
+    display: block;
+
     width: 100%;
     height: 100%;
+
     object-fit: cover;
-    display: block;
 }
