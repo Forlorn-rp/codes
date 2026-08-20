@@ -1856,21 +1856,21 @@ body:has(.group-6) .occult-stat-rail {
 }
 
 /* ============================================================
-   FREEFOLK - GROUP 7
+   FREEFOLK — GROUP 7
    ============================================================ */
 
 body:has(.group-7) .occult-portrait-card {
     background:
         radial-gradient(
             ellipse at 50% 0%,
-            rgb(45 88 50 / 35%),
+            #3e4049,
             transparent 45%
         ),
         linear-gradient(
             145deg,
-            #122611,
-            #020402 55%,
-            #1e2b1f
+            #111226,
+            #030204 55%,
+            #3f3a49
         );
 }
 
@@ -1878,8 +1878,8 @@ body:has(.group-7) .occult-identity-panel {
     background:
         linear-gradient(
             145deg,
-            rgb(15 27 17 / 98%),
-            rgb(16 13 18 / 98%)
+            rgb(20 15 27 / 98%),
+            rgb(29 27 37 / 98%)
         );
 }
 
@@ -1887,13 +1887,13 @@ body:has(.group-7) .occult-stat-rail {
     background:
         radial-gradient(
             ellipse at 50% 0%,
-            rgb(45 88 56 / 25%),
+            #252433,
             transparent 42%
         ),
         linear-gradient(
             180deg,
             #17132a,
             #100d1c 50%,
-            #1e3122
+            #3f3a49
         );
 }
