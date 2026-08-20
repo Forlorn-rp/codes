@@ -2010,6 +2010,9 @@
    PROFILE USERNAME — UNIVERSAL COLOR
    ============================================================ */
 
-.occult-profile .occult-username {
+body .occult-profile .occult-username,
+body .occult-profile .occult-username *,
+body .occult-profile .occult-username a,
+body .occult-profile .occult-username a * {
     color: #b3b3b3 !important;
 }
