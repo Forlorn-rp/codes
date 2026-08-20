@@ -1913,6 +1913,21 @@
         ) !important;
 }
 
+.occult-profile:has(.group-6) .occult-inkprint {
+    background: rgb(9 12 14 / 55%);
+}
+
+.occult-profile:has(.group-6) .occult-field-label,
+.occult-profile:has(.group-6) .occult-field-label *,
+.occult-profile:has(.group-6) .occult-wide-field .occult-field-label,
+.occult-profile:has(.group-6) .occult-wide-field .occult-field-label * {
+    color: #819e82 !important;
+}
+
+.occult-profile:has(.group-6) .occult-rail-icon {
+    color: #6a7b67 !important;
+}
+
 
 /* ============================================================
    FREEFOLK — GROUP 7
