@@ -1855,6 +1855,21 @@
         ) !important;
 }
 
+.occult-profile:has(.group-2) .occult-inkprint {
+    background: rgb(14 12 9 / 55%);
+}
+
+.occult-profile:has(.group-2) .occult-field-label,
+.occult-profile:has(.group-2) .occult-field-label *,
+.occult-profile:has(.group-2) .occult-wide-field .occult-field-label,
+.occult-profile:has(.group-2) .occult-wide-field .occult-field-label * {
+    color: #9e9581 !important;
+}
+
+.occult-profile:has(.group-2) .occult-rail-icon {
+    color: #8b8271 !important;
+}
+
 /* ============================================================
    VALONDRYS — GROUP 6
    ============================================================ */
