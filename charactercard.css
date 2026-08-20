@@ -1813,6 +1813,25 @@
 }
 
 /* ============================================================
+   MERIGOLD — GROUP 2
+   ============================================================ */
+
+body:has(.group-2) .occult-portrait-card {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgb(153 155 81 / 35%), transparent 45%), linear-gradient(145deg, #2f1a0d, #040202 55%, #3b3322);
+}
+
+body:has(.group-2) .occult-identity-panel {
+    background:
+        linear-gradient(145deg, rgb(55 49 34 / 98%), rgb(28 18 18 / 98%));
+}
+
+body:has(.group-2) .occult-stat-rail {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgb(87 88 45 / 25%), transparent 42%), linear-gradient(180deg, #17132a, #1a1413 50%, #3b3322);
+}
+
+/* ============================================================
    VALONDRYS — GROUP 6
    ============================================================ */
 
