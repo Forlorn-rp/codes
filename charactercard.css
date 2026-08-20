@@ -1743,6 +1743,9 @@
     width: 100%;
     margin-top: 12px;
     box-sizing: border-box;
+    background: rgba(10, 9, 14, .55);
+    padding: 15px;
+    border: 1px solid rgb(63 56 42 / 38%);
 }
 
 /* ============================================================
@@ -1760,6 +1763,7 @@
     box-sizing: border-box;
 
     border: 1px solid rgba(168,145,93,.22);
+    border-radius: 5px;
     background: #09080d;
 }
 
