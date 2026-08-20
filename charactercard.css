@@ -2063,6 +2063,21 @@
         ) !important;
 }
 
+.occult-profile:has(.group-7) .occult-inkprint {
+    background: rgb(9 11 14 / 55%);
+}
+
+.occult-profile:has(.group-7) .occult-field-label,
+.occult-profile:has(.group-7) .occult-field-label *,
+.occult-profile:has(.group-7) .occult-wide-field .occult-field-label,
+.occult-profile:has(.group-7) .occult-wide-field .occult-field-label * {
+    color: #8c939b !important;
+}
+
+.occult-profile:has(.group-7) .occult-rail-icon {
+    color: #71798b !important;
+}
+
 /* ============================================================
    PROFILE USERNAME — UNIVERSAL COLOR
    ============================================================ */
