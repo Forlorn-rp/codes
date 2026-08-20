@@ -1871,6 +1871,40 @@
 }
 
 /* ============================================================
+   OBSIDIAN KINGDOM — GROUP 3
+   ============================================================ */
+
+.occult-profile:has(.group-3) .occult-portrait-card {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgb(109 85 147 / 35%), transparent 45%), linear-gradient(145deg, #161126, #030204 55%, #231e2b);
+}
+
+.occult-profile:has(.group-3) .occult-identity-panel {
+    background:
+        linear-gradient(145deg, rgba(18, 15, 27, .98), rgb(16 13 18 / 98%));
+}
+
+.occult-profile:has(.group-3) .occult-stat-rail {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgba(62, 45, 88, .25), transparent 42%), linear-gradient(180deg, #17132a, #100d1c 50%, #2a1e31);
+}
+
+.occult-profile:has(.group-3) .occult-inkprint {
+    background: rgba(10, 9, 14, .55);
+}
+
+.occult-profile:has(.group-3) .occult-field-label,
+.occult-profile:has(.group-3) .occult-field-label *,
+.occult-profile:has(.group-3) .occult-wide-field .occult-field-label,
+.occult-profile:has(.group-3) .occult-wide-field .occult-field-label * {
+    color: #8e819e!important !important;
+}
+
+.occult-profile:has(.group-3) .occult-rail-icon {
+    color: #7f718b !important;
+}
+
+/* ============================================================
    PHOENIX — GROUP 4
    ============================================================ */
 
