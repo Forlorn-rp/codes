@@ -1816,7 +1816,7 @@
    MERIGOLD — GROUP 2
    ============================================================ */
 
-body:has(.group-2) .occult-portrait-card {
+.occult-profile:has(.group-2) .occult-portrait-card {
     background:
         radial-gradient(
             ellipse at 50% 0%,
@@ -1831,7 +1831,7 @@ body:has(.group-2) .occult-portrait-card {
         ) !important;
 }
 
-body:has(.group-2) .occult-identity-panel {
+.occult-profile:has(.group-2) .occult-identity-panel {
     background:
         linear-gradient(
             145deg,
@@ -1840,7 +1840,7 @@ body:has(.group-2) .occult-identity-panel {
         ) !important;
 }
 
-body:has(.group-2) .occult-stat-rail {
+.occult-profile:has(.group-2) .occult-stat-rail {
     background:
         radial-gradient(
             ellipse at 50% 0%,
@@ -1859,7 +1859,7 @@ body:has(.group-2) .occult-stat-rail {
    VALONDRYS — GROUP 6
    ============================================================ */
 
-body:has(.group-6) .occult-portrait-card {
+.occult-profile:has(.group-6) .occult-portrait-card {
     background:
         radial-gradient(
             ellipse at 50% 0%,
@@ -1871,19 +1871,19 @@ body:has(.group-6) .occult-portrait-card {
             #122611,
             #020402 55%,
             #1e2b1f
-        );
+        ) !important;
 }
 
-body:has(.group-6) .occult-identity-panel {
+.occult-profile:has(.group-6) .occult-identity-panel {
     background:
         linear-gradient(
             145deg,
             rgb(15 27 17 / 98%),
             rgb(16 13 18 / 98%)
-        );
+        ) !important;
 }
 
-body:has(.group-6) .occult-stat-rail {
+.occult-profile:has(.group-6) .occult-stat-rail {
     background:
         radial-gradient(
             ellipse at 50% 0%,
@@ -1895,14 +1895,15 @@ body:has(.group-6) .occult-stat-rail {
             #17132a,
             #100d1c 50%,
             #1e3122
-        );
+        ) !important;
 }
+
 
 /* ============================================================
    FREEFOLK — GROUP 7
    ============================================================ */
 
-body:has(.group-7) .occult-portrait-card {
+.occult-profile:has(.group-7) .occult-portrait-card {
     background:
         radial-gradient(
             ellipse at 50% 0%,
@@ -1914,19 +1915,19 @@ body:has(.group-7) .occult-portrait-card {
             #111226,
             #030204 55%,
             #3f3a49
-        );
+        ) !important;
 }
 
-body:has(.group-7) .occult-identity-panel {
+.occult-profile:has(.group-7) .occult-identity-panel {
     background:
         linear-gradient(
             145deg,
             rgb(20 15 27 / 98%),
             rgb(29 27 37 / 98%)
-        );
+        ) !important;
 }
 
-body:has(.group-7) .occult-stat-rail {
+.occult-profile:has(.group-7) .occult-stat-rail {
     background:
         radial-gradient(
             ellipse at 50% 0%,
@@ -1938,5 +1939,5 @@ body:has(.group-7) .occult-stat-rail {
             #17132a,
             #100d1c 50%,
             #3f3a49
-        );
+        ) !important;
 }
