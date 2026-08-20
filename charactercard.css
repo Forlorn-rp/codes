@@ -1811,3 +1811,47 @@
     }
 
 }
+
+/* ============================================================
+   GROUP-SPECIFIC PROFILE BACKGROUNDS
+   ============================================================ */
+
+/* VALONDRYS — GROUP 6 */
+.group-6 ~ .occult-profile .occult-portrait-card {
+    background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            rgb(45 88 50 / 35%),
+            transparent 45%
+        ),
+        linear-gradient(
+            145deg,
+            #122611,
+            #020402 55%,
+            #1e2b1f
+        );
+}
+
+.group-6 ~ .occult-profile .occult-identity-panel {
+    background:
+        linear-gradient(
+            145deg,
+            rgb(15 27 17 / 98%),
+            rgb(16 13 18 / 98%)
+        );
+}
+
+.group-6 ~ .occult-profile .occult-stat-rail {
+    background:
+        radial-gradient(
+            ellipse at 50% 0%,
+            rgb(45 88 56 / 25%),
+            transparent 42%
+        ),
+        linear-gradient(
+            180deg,
+            #17132a,
+            #100d1c 50%,
+            #1e3122
+        );
+}
