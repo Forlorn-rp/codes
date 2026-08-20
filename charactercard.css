@@ -350,7 +350,7 @@
 /* big username */
 
 .occult-username {
-    color: #b7a8c8;
+    color: #b3b3b3 !important;
     font-family: 'Rosie Brown';
     font-size: 32px;
     line-height: 1.05;
@@ -1294,7 +1294,7 @@
    ============================================================ */
 
 .occult-username {
-    color: #c0b0d0;
+    color: #b3b3b3 !important;
 
     letter-spacing: 2px;
 
