@@ -160,7 +160,7 @@
             #111226,
             #030204 55%,
             #3f3a49
-        ) !important;
+        );
     border: 1px solid rgb(103 94 75 / 42%);
     text-align: center;
 }
@@ -331,7 +331,7 @@
             145deg,
             rgb(20 15 27 / 98%),
             rgb(29 27 37 / 98%)
-        ) !important;
+        );
     border: 1px solid rgb(63 56 42 / 38%);
     box-shadow:
         inset 0 0 35px rgba(30,22,47,.18);
@@ -738,7 +738,7 @@
             180deg,
             #17132a,
             #100d1c 50%,
-            #3f3a49) !important;
+            #3f3a49);
     border: 1px solid rgb(103 94 75 / 42%);
     overflow: hidden;
 }
@@ -1933,17 +1933,17 @@
 
 .occult-profile:has(.group-4) .occult-portrait-card {
     background:
-        radial-gradient(ellipse at 50% 0%, rgb(163 66 66 / 35%), transparent 45%), linear-gradient(145deg, #261111, #040202 55%, #3b1f1f);
+        radial-gradient(ellipse at 50% 0%, rgb(163 66 66 / 35%), transparent 45%), linear-gradient(145deg, #261111, #040202 55%, #3b1f1f) !important;
 }
 
 .occult-profile:has(.group-4) .occult-identity-panel {
     background:
-        linear-gradient(145deg, rgb(27 15 15 / 98%), rgb(16 13 18 / 98%));
+        linear-gradient(145deg, rgb(27 15 15 / 98%), rgb(16 13 18 / 98%)) !important;
 }
 
 .occult-profile:has(.group-4) .occult-stat-rail {
     background:
-        radial-gradient(ellipse at 50% 0%, rgb(88 45 45 / 25%), transparent 42%), linear-gradient(180deg, #17132a, #100d1c 50%, #3b1f1f);
+        radial-gradient(ellipse at 50% 0%, rgb(88 45 45 / 25%), transparent 42%), linear-gradient(180deg, #17132a, #100d1c 50%, #3b1f1f) !important;
 }
 
 .occult-profile:has(.group-4) .occult-inkprint {
