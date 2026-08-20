@@ -2005,3 +2005,11 @@
             #3f3a49
         ) !important;
 }
+
+/* ============================================================
+   PROFILE USERNAME — UNIVERSAL COLOR
+   ============================================================ */
+
+.occult-profile .occult-username {
+    color: #b3b3b3 !important;
+}
