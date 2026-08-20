@@ -1735,7 +1735,7 @@
    ============================================================ */
 .occult-inkprint-image {
     width: 180px;
-    height: 180px;
+    height: 140px;
     overflow: hidden;
     flex-shrink: 0;
 }
