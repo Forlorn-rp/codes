@@ -1962,6 +1962,40 @@
 }
 
 /* ============================================================
+   THALASSIA TIDES — GROUP 5
+   ============================================================ */
+
+.occult-profile:has(.group-5) .occult-portrait-card {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgb(66 145 163 / 35%), transparent 45%), linear-gradient(145deg, #141126, #020204 55%, #1f213b) !important;
+}
+
+.occult-profile:has(.group-5) .occult-identity-panel {
+    background:
+        linear-gradient(145deg, rgb(32 34 51 / 98%), rgb(15 13 18 / 98%)) !important;
+}
+
+.occult-profile:has(.group-5) .occult-stat-rail {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgb(45 66 88 / 25%), transparent 42%), linear-gradient(180deg, #17132a, #100d1c 50%, #1f213b) !important;
+}
+
+.occult-profile:has(.group-5) .occult-inkprint {
+    background: rgb(9 11 14 / 55%);
+}
+
+.occult-profile:has(.group-5) .occult-field-label,
+.occult-profile:has(.group-5) .occult-field-label *,
+.occult-profile:has(.group-5) .occult-wide-field .occult-field-label,
+.occult-profile:has(.group-5) .occult-wide-field .occult-field-label * {
+    color: #8890ad !important;
+}
+
+.occult-profile:has(.group-5) .occult-rail-icon {
+    color: #797d99 !important;
+}
+
+/* ============================================================
    VALONDRYS — GROUP 6
    ============================================================ */
 
