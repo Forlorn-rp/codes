@@ -534,7 +534,7 @@
 /* field value */
 
 .occult-field-value {
-    color: #b9b5ac;
+    color: #bdbab5;
     font-size: 15px;
     line-height: 1.45;
     font-family: Calibri;
@@ -542,7 +542,7 @@
 }
 
 .occult-field-value a {
-    color: #b9a36f;
+    color: #bdbab5;
 
     text-decoration: none;
 }
@@ -1355,7 +1355,7 @@
    ============================================================ */
 
 .occult-field-value {
-    color: #d2cabc;
+    color: #bdbab5;
 }
 
 
