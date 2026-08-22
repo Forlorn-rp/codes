@@ -57,7 +57,7 @@
     min-width: 270px;
     padding: 8px;
     
-    background: linear-gradient(to top, rgb(58 54 73), rgb(0 0 0));
+    background: radial-gradient(ellipse at 50% 0%, rgb(119 136 187 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #282d37) !important;
     
     border: 1px solid #3b3938;
     border-radius: 18px;
@@ -352,41 +352,37 @@
 /* MERIGOLD — GROUP 2 */
 .stardust-member-card:has(.group-2) {
     background:
-        linear-gradient(
-            to top,
-            rgb(59 51 34),
-            rgb(12 10 7)
-        );
+        radial-gradient(ellipse at 50% 0%, rgb(177 149 69 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #3b321d) !important;
 }
 
 /* OBSIDIAN — GROUP 3 */
 .stardust-member-card:has(.group-3) {
     background:
-       linear-gradient(to top, rgb(40 32 45), rgb(0 0 0));
+       radial-gradient(ellipse at 50% 0%, rgb(111 69 177 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #251d3b) !important;
 }
 
 /* PHOENIX — GROUP 4 */
 .stardust-member-card:has(.group-4) {
     background:
-       linear-gradient(to top, rgb(53 32 32), rgb(0 0 0));
+       radial-gradient(ellipse at 50% 0%, rgb(177 69 69 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #3b1d1d) !important;
 }
 
 /* THALASSIA TIDES — GROUP 5 */
 .stardust-member-card:has(.group-5) {
     background:
-        linear-gradient(to top, rgb(30 38 63), rgb(0 0 0));
+        radial-gradient(ellipse at 50% 0%, rgb(69 107 177 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #1d2a3b) !important;
 }
 
 /* VALONDRYS — GROUP 6 */
 .stardust-member-card:has(.group-6) {
     background:
-        linear-gradient(to top, rgb(32 53 37), rgb(0 0 0));
+        radial-gradient(ellipse at 50% 0%, rgb(106 177 69 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #1d3b20) !important;
 }
 
 /* FREEFOLK — GROUP 7 */
 .stardust-member-card:has(.group-7) {
     background:
-        linear-gradient(to top, rgb(58 54 73), rgb(0 0 0));
+        radial-gradient(ellipse at 50% 0%, rgb(119 136 187 / 25%), transparent 42%), linear-gradient(180deg, #0b0b0c, #1a131a 50%, #282d37) !important;
 }
 
 .stardust-member-name,
