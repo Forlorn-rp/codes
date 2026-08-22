@@ -386,3 +386,9 @@
     background:
         linear-gradient(to top, rgb(58 54 73), rgb(0 0 0));
 }
+
+.stardust-member-name,
+.stardust-member-name a,
+.stardust-member-name a * {
+    color: #b3b3b3 !important;
+}
