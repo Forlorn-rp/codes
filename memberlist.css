@@ -374,11 +374,7 @@
 /* VALONDRYS — GROUP 6 */
 .stardust-member-card:has(.group-6) {
     background:
-        linear-gradient(
-            to top,
-            rgb(30 49 31),
-            rgb(4 8 4)
-        );
+        linear-gradient(to top, rgb(32 53 37), rgb(0 0 0));
 }
 
 /* FREEFOLK — GROUP 7 */
