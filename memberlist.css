@@ -358,6 +358,12 @@
         );
 }
 
+/* OBSIDIAN — GROUP 3 */
+.stardust-member-card:has(.group-3) {
+    background:
+       linear-gradient(to top, rgb(40 32 45), rgb(0 0 0));
+}
+
 /* VALONDRYS — GROUP 6 */
 .stardust-member-card:has(.group-6) {
     background:
