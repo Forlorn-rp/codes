@@ -365,10 +365,16 @@
        linear-gradient(to top, rgb(40 32 45), rgb(0 0 0));
 }
 
-/* OBSIDIAN — GROUP 4 */
+/* PHOENIX — GROUP 4 */
 .stardust-member-card:has(.group-4) {
     background:
        linear-gradient(to top, rgb(53 32 32), rgb(0 0 0));
+}
+
+/* THALASSIA TIDES — GROUP 5 */
+.stardust-member-card:has(.group-5) {
+    background:
+        linear-gradient(to top, rgb(30 38 63), rgb(0 0 0));
 }
 
 /* VALONDRYS — GROUP 6 */
