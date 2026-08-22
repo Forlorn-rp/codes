@@ -57,7 +57,7 @@
     min-width: 270px;
     padding: 8px;
     
-    background: linear-gradient(to top, rgb(40 32 45), rgb(0 0 0));
+    background: linear-gradient(to top, rgb(58 54 73), rgb(0 0 0));
     
     border: 1px solid #3b3938;
     border-radius: 18px;
@@ -383,9 +383,5 @@
 /* FREEFOLK — GROUP 7 */
 .stardust-member-card:has(.group-7) {
     background:
-        linear-gradient(
-            to top,
-            rgb(63 58 73),
-            rgb(3 2 4)
-        );
+        linear-gradient(to top, rgb(58 54 73), rgb(0 0 0));
 }
