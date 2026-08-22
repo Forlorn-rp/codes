@@ -311,6 +311,10 @@
     color: #756b65;
 }
 
+.stardust-member-card:has(.group-2) {
+    background: red !important;
+}
+
 
 /* =========================================================
    RESPONSIVE
