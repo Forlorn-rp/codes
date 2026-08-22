@@ -311,10 +311,6 @@
     color: #756b65;
 }
 
-.stardust-member-card:has(.group-2) {
-    background: red !important;
-}
-
 
 /* =========================================================
    RESPONSIVE
@@ -346,4 +342,38 @@
         max-width: 300px;
     }
 
+}
+
+/* =========================================================
+   GROUP-SPECIFIC MEMBER CARD BACKGROUNDS
+   ========================================================= */
+
+/* MERIGOLD — GROUP 2 */
+.stardust-member-card:has(.group-2) {
+    background:
+        linear-gradient(
+            to top,
+            rgb(59 51 34),
+            rgb(12 10 7)
+        );
+}
+
+/* VALONDRYS — GROUP 6 */
+.stardust-member-card:has(.group-6) {
+    background:
+        linear-gradient(
+            to top,
+            rgb(30 49 31),
+            rgb(4 8 4)
+        );
+}
+
+/* FREEFOLK — GROUP 7 */
+.stardust-member-card:has(.group-7) {
+    background:
+        linear-gradient(
+            to top,
+            rgb(63 58 73),
+            rgb(3 2 4)
+        );
 }
